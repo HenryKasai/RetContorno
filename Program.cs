@@ -28,12 +28,12 @@ namespace RetContorno
                 }
                 else
                 {
-                    int aff = 1;
+                    int linhadecima = 1;
                     Console.ForegroundColor = ConsoleColor.Green;
-                    while (aff <= largura)
+                    while (linhadecima <= largura)
                     {
                         Console.Write(". ");
-                        aff++;
+                        linhadecima++;
                     }
                     Console.WriteLine();
                     int menosaltura = altura - 2;
@@ -53,12 +53,12 @@ namespace RetContorno
                         Console.WriteLine();
                         meio++;
                     }
-                    int ss = 1;
+                    int linhadebaixo = 1;
                     Console.ForegroundColor = ConsoleColor.Green;
-                    while (ss <= largura)
+                    while (linhadebaixo <= largura)
                     {
-                    Console.Write(". ");
-                    ss++;
+                        Console.Write(". ");
+                        linhadebaixo++;
                     }
                     Console.ForegroundColor = ConsoleColor.Gray;
                     terminar = true;
